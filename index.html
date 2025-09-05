@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Interactive Page </h1>
+
+  <!-- Theme Toggle -->
+  <button id="toggleTheme">Toggle Light/Dark Mode</button>
+
+  <!-- Counter -->
+  <div>
+    <h2>Counter Game</h2>
+    <button id="decrease">-</button>
+    <span id="counter">0</span>
+    <button id="increase">+</button>
+  </div>
+
+  <!-- Form Section -->
+  <h2>Sign Up Form</h2>
+  <form id="myForm">
+    <label>
+      Name:
+      <input type="text" id="name" />
+      <span class="error" id="nameError"></span>
+    </label><br />
+
+    <label>
+      Email:
+      <input type="text" id="email" />
+      <span class="error" id="emailError"></span>
+    </label><br />
+
+    <label>
+      Password:
+      <input type="password" id="password" />
+      <span class="error" id="passwordError"></span>
+    </label><br />
+
+    <button type="submit">Submit</button>
+    <span id="formMessage"></span>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>

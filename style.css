@@ -1,0 +1,62 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1, h2 {
+  color: #444;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+/* Counter Display */
+#counter {
+  font-size: 1.5em;
+  margin: 0 10px;
+}
+
+/* Form Styling */
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 6px;
+  margin-top: 4px;
+  width: 250px;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-left: 10px;
+}
+
+#formMessage {
+  margin-top: 10px;
+  font-weight: bold;
+  color: green;
+}
+
+/* Dark Mode Styling */
+.dark-mode {
+  background-color: #222;
+  color: #eee;
+}
+
+.dark-mode button {
+  background-color: #444;
+  color: #fff;
+}
